@@ -14,22 +14,22 @@ const ResumeCard = ({ title, subTitle, result, des }) => {
 
             <div className='lg:w-[80%] lg:h-[60%] sm:w-[120%] bg-black bg-opacity-20 hover:bg-opacity-30 duration-300 rounded-lg sm:px-10 px-10 flex flex-col sm:items-start justify-center gap-10 shadow-shadowOne'>
 
-                <div className='flex justify-between items-center flex-row'>
+                <div className='flex justify-between items-center w-full h-full'>
 
-                    <div>
+                    <div className='flex-1'>
                         <h3 className='text-2xl font-semibold group-hover:text-white duration-300'>{title}</h3>
                         <p className='text-sm mt-2 text-gray-400 group-hover:text-white duration-300'>{subTitle}</p>
                     </div>
 
-                    <div>
-                        <p className='w-[100%] sm:w-[100%] sm:h-[90%]h-10 text-designColor bg-black bg-opacity-25 rounded-lg flex lg:justify-center lg:-mt-8 lg:ml-16 md:mt-10 px-2 py-2  items-center shadow-shadowOne text-sm font-medium'>
+                    <div className='flex h-10 w-1/5 text-designColor bg-black bg-opacity-25 rounded-lg  lg:justify-center lg:-mt-8 lg:ml-16 md:mt-10 px-2 py-2  items-center shadow-shadowOne text-sm font-medium'>
+                        <p >
                             {result}
                         </p>
                     </div>
                 </div>
-                <p className='text-base font-medium text-gray-400 group-hover:text-gray-300 duration-300'>
+               {des && <p className='text-base font-medium text-gray-400 group-hover:text-gray-300 duration-300'>
                     {des}
-                </p>
+                </p>}
             </div>
         </div >
     )
