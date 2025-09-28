@@ -20,7 +20,7 @@ const Footer = () => {
                     </h3>
                     <ul className='flex flex-col gap-4 font-titleFont font-medium overflow-hidden py-6'>
                         <a
-                            href="https://drive.google.com/file/d/1lTTdDr9U0LMUNCa58jdjg8GSrSgornWO/view?usp=sharing"
+                            href="https://drive.google.com/file/d/19tmO8A7hUe3sWY4KA5P9KPPdVEWzRMvE/view?usp=sharing"
                             download="chandaniMouryaResume.pdf"
                             target="_blank" rel="noreferrer">
                             <li> <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">

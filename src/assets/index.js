@@ -1,5 +1,5 @@
 import logo from "./images/logo.png";
-import bannerImg from "./images/bannerImg.png";
+import banner from "./images/banner.png";
 import projectOne from "./images/projects/projectOne.png";
 import projectTwo from "./images/projects/projectTwo.jpg";
 import projectThree from "./images/projects/projectThree.jpeg";
@@ -12,7 +12,7 @@ import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 
 export {
     logo,
-    bannerImg,
+    banner,
     projectOne,
     projectTwo,
     projectThree,

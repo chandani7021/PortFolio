@@ -11,6 +11,14 @@ const Experience = () => {
             </div>
 
             <div className='mt-14 w-[80%] h-[900px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10'>
+                  <ResumeCard
+                    title="Software Engineer"
+                    subTitle="Copds"
+                    result="Mar 2024 - Present"
+                    des="Delivered 3 impactful projects — a Leave Management System (30% faster approvals), a Development
+Showcase Platform, and an ongoing Cybersecurity solution — while strengthening technical expertise,
+problem-solving, and cross-functional collaboration" />
+
                 <ResumeCard
                     title="Fullstack Developer Intern"
                     subTitle="NullClass"

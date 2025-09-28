@@ -89,6 +89,23 @@ const Skills = () => {
                         </span>
                     </div>
 
+                    <div className='overflow-x-hidden'>
+                        <p className='text-sm uppercase font-medium'>React Native</p>
+                        <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-2'>
+                            <motion.span
+                                initial={{ x: "-100%", opacity: 0 }}
+                                animate={{ x: 0, opacity: 1 }}
+                                transition={{ duration: 0.5, delay: 0.5 }}
+                                className='w-[70%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative'>
+                                <span className='absolute -top-7 right-0'>
+                                    70%
+                                </span>
+                            </motion.span>
+                        </span>
+                    </div>
+
+                   
+
                 </div>
             </div >
 
@@ -177,7 +194,20 @@ const Skills = () => {
                         </span>
                     </div>
 
-
+                     <div className='overflow-x-hidden'>
+                        <p className='text-sm uppercase font-medium'>Fast API</p>
+                        <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-2'>
+                            <motion.span
+                                initial={{ x: "-100%", opacity: 0 }}
+                                animate={{ x: 0, opacity: 1 }}
+                                transition={{ duration: 0.5, delay: 0.5 }}
+                                className='w-[65%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative'>
+                                <span className='absolute -top-7 right-0'>
+                                    65%
+                                </span>
+                            </motion.span>
+                        </span>
+                    </div>
 
 
 
